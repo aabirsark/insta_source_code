@@ -5,6 +5,8 @@ import 'package:insta_code/meta/views/camera.page.dart';
 import 'package:insta_code/meta/views/flag_demo.dart';
 import 'package:insta_code/meta/widgets/state_scope.dart';
 
+
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 

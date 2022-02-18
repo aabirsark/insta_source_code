@@ -11,6 +11,9 @@ class CameraPage extends StatefulWidget {
 }
 
 class _CameraPageState extends State<CameraPage> {
+
+
+
   late CameraController controller;
 
   @override
@@ -45,4 +48,6 @@ class _CameraPageState extends State<CameraPage> {
             ),
     );
   }
+
+  
 }
