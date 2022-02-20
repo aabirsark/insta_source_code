@@ -2,15 +2,14 @@ import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_code/app/contants.dart';
 import 'package:insta_code/meta/views/camera.page.dart';
+import 'package:insta_code/meta/views/confetti.page.dart';
 import 'package:insta_code/meta/views/flag_demo.dart';
 import 'package:insta_code/meta/widgets/state_scope.dart';
-
-
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  cameras = await availableCameras();
+  // cameras = await availableCameras();
 
   runApp(const InstaSourceCode());
 }
@@ -24,7 +23,7 @@ class InstaSourceCode extends StatelessWidget {
       title: "Insta Source Code",
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: const CameraPage(),
+      home: const ConfettiPage(),
     );
   }
 }
