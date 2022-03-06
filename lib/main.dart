@@ -1,9 +1,12 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_code/app/contants.dart';
+import 'package:insta_code/meta/views/books.page.dart';
 import 'package:insta_code/meta/views/camera.page.dart';
 import 'package:insta_code/meta/views/confetti.page.dart';
 import 'package:insta_code/meta/views/flag_demo.dart';
+import 'package:insta_code/meta/views/glass.page.dart';
+import 'package:insta_code/meta/views/svg.page.dart';
 import 'package:insta_code/meta/widgets/state_scope.dart';
 
 void main() async {
@@ -19,11 +22,11 @@ class InstaSourceCode extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: "Insta Source Code",
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(),
-      home: const ConfettiPage(),
+      // theme: ThemeData.dark(),
+      home: GlassPage(),
     );
   }
 }
