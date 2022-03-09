@@ -33,6 +33,7 @@ dependencies:
   confetti: ^0.6.0
   cupertino_icons: ^1.0.2
   flag: ^6.0.0
+  qr_flutter: ^4.0.0
   flutter:
     sdk: flutter
   flutter_svg: ^1.0.3

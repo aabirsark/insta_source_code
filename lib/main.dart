@@ -6,6 +6,7 @@ import 'package:insta_code/meta/views/camera.page.dart';
 import 'package:insta_code/meta/views/confetti.page.dart';
 import 'package:insta_code/meta/views/flag_demo.dart';
 import 'package:insta_code/meta/views/glass.page.dart';
+import 'package:insta_code/meta/views/qr.page.dart';
 import 'package:insta_code/meta/views/svg.page.dart';
 import 'package:insta_code/meta/widgets/state_scope.dart';
 
@@ -22,11 +23,16 @@ class InstaSourceCode extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: "Insta Source Code",
       debugShowCheckedModeBanner: false,
-      // theme: ThemeData.dark(),
-      home: GlassPage(),
+      theme: ThemeData(
+          appBarTheme: const AppBarTheme(
+              // titleTextStyle: TextStyle(color: Colors.black, fontSize: 18),
+              centerTitle: true,
+              elevation: 0.0,
+              color: Colors.black)),
+      home: const QrCodePage(),
     );
   }
 }
