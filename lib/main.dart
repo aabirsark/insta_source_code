@@ -6,6 +6,7 @@ import 'package:insta_code/meta/views/camera.page.dart';
 import 'package:insta_code/meta/views/confetti.page.dart';
 import 'package:insta_code/meta/views/flag_demo.dart';
 import 'package:insta_code/meta/views/glass.page.dart';
+import 'package:insta_code/meta/views/neuo.page.dart';
 import 'package:insta_code/meta/views/qr.page.dart';
 import 'package:insta_code/meta/views/svg.page.dart';
 import 'package:insta_code/meta/widgets/state_scope.dart';
@@ -32,7 +33,7 @@ class InstaSourceCode extends StatelessWidget {
               centerTitle: true,
               elevation: 0.0,
               color: Colors.black)),
-      home: const QrCodePage(),
+      home: const NeouMorphism(),
     );
   }
 }
