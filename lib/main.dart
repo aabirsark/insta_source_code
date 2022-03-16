@@ -9,6 +9,7 @@ import 'package:insta_code/meta/views/glass.page.dart';
 import 'package:insta_code/meta/views/neuo.page.dart';
 import 'package:insta_code/meta/views/qr.page.dart';
 import 'package:insta_code/meta/views/svg.page.dart';
+import 'package:insta_code/meta/views/web.page.dart';
 import 'package:insta_code/meta/widgets/state_scope.dart';
 
 void main() async {
@@ -33,7 +34,7 @@ class InstaSourceCode extends StatelessWidget {
               centerTitle: true,
               elevation: 0.0,
               color: Colors.black)),
-      home: const NeouMorphism(),
+      home: const FlutterWebviewExample(),
     );
   }
 }
