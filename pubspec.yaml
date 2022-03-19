@@ -26,7 +26,11 @@ environment:
 # dependencies can be manually updated by changing the version numbers below to
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
+
 dependencies:
+  flutter_blurhash: ^0.6.4
+  blurhash: ^1.0.0
+
   animate_do: ^2.1.0
   camera: ^0.9.4+12
   confetti: ^0.6.0

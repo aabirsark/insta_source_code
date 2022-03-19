@@ -10,9 +10,7 @@ class FlutterWebviewExample extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Flutter Webview example"),
       ),
-      body: const WebView(
-        initialUrl: "https://flutter.dev/",
-      ),
+      body: const WebView(initialUrl: "https://flutter.dev/")
     );
   }
 }

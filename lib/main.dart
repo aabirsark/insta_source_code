@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_code/app/contants.dart';
+import 'package:insta_code/meta/views/blurhash.page.dart';
 import 'package:insta_code/meta/views/books.page.dart';
 import 'package:insta_code/meta/views/camera.page.dart';
 import 'package:insta_code/meta/views/confetti.page.dart';
@@ -34,7 +35,7 @@ class InstaSourceCode extends StatelessWidget {
               centerTitle: true,
               elevation: 0.0,
               color: Colors.black)),
-      home: const FlutterWebviewExample(),
+      home: const FlutterBlurhash(),
     );
   }
 }
